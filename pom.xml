@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>javabegin.com</groupId>
+    <groupId>javabegin.ru</groupId>
     <artifactId>javabegin-spring-mvc</artifactId>
     <version>1.0</version>
-    <!--превратили в веб приложение-->
+
     <packaging>war</packaging>
     <properties>
         <project.build.souceEncoding>UTF-8</project.build.souceEncoding>
@@ -50,7 +50,6 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
             <version>${spring-context.version}</version>
-            <!--не работало ошибка 500 http://localhost:8081/s-pizza-service/app/hello-->
         </dependency>
 
         <!--конвертор JSON, можно подключить любой который поддерживается спрингом -->
@@ -170,7 +169,7 @@
 
                     <scanIntervalSeconds>10</scanIntervalSeconds>
                     <webApp>
-                        <contextPath>/s-pizza-service</contextPath>
+                        <contextPath>/javabegin</contextPath>
                     </webApp>
                 </configuration>
 
