@@ -27,7 +27,12 @@
 
     </fieldset>
 
-    <footer> <label><input type="checkbox" tabindex="3">Keep me logged in</label>
+
+    <footer>
+        <form:checkbox path="admin"/>
+        <form:label path="admin">admin</form:label>
+
+        <%--<label><input type="checkbox" tabindex="3">Keep me logged in</label>--%>
         <input type="submit" class="btnLogin" value="Login" tabindex="4">
     </footer>
 
