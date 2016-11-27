@@ -1,16 +1,15 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: ASUS
-  Date: 20.11.2016
-  Time: 1:43
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <html>
 <head>
-    <title>Main</title>
+
+<title>Home</title>
 </head>
 <body>
+
+<p>Hello ${user.name}!</p>
+<p>Your password is  ${user.password}!</p>
+
+
 
 </body>
 </html>
